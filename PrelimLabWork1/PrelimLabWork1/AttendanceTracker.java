@@ -1,3 +1,4 @@
+package PrelimLabWork1;
 // Import Swing and other required libraries
 import javax.swing.*;
 import java.awt.*;
