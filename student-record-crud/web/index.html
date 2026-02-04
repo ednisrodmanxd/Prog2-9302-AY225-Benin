@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
+
     <title>Student Records</title>
 </head>
 <body>
@@ -11,13 +13,25 @@
 <input id="id" placeholder="ID">
 <input id="name" placeholder="Name">
 <input id="grade" placeholder="Grade">
+<input id="lab1" placeholder="Lab Work 1">
+<input id="lab2" placeholder="Lab Work 2">
+<input id="lab3" placeholder="Lab Work 3">
+<input id="prelim" placeholder="Prelim Exam">
+<input id="attendance" placeholder="Attendance">
+
 <button onclick="addStudent()">Add</button>
 
 <table border="1">
     <thead>
-        <tr>
-            <th>ID</th><th>Name</th><th>Grade</th><th>Action</th>
-        </tr>
+        <th>ID</th>
+<th>Name</th>
+<th>Lab Work 1</th>
+<th>Lab Work 2</th>
+<th>Lab Work 3</th>
+<th>Prelim Exam</th>
+<th>Attendance</th>
+<th>Action</th>
+
     </thead>
     <tbody id="tableBody"></tbody>
 </table>
