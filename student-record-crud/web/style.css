@@ -1,0 +1,86 @@
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    padding: 20px;
+}
+
+/* Titles */
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+/* Inputs and button */
+input {
+    padding: 8px;
+    margin: 5px 3px;
+    width: 130px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 14px;
+    border: none;
+    background-color: #2e86de;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1e6bb8;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+/* Header */
+th {
+    background-color: #2e86de;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Table cells */
+td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+/* Zebra striping */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #e9f3ff;
+}
+
+/* Delete button */
+td button {
+    background-color: #e74c3c;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+td button:hover {
+    background-color: #c0392b;
+}
