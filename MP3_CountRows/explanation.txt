@@ -1,0 +1,1 @@
+This program counts the number of valid rows in the dataset. A row is considered valid if it is not empty. The program reads the CSV file and increments a counter for each valid line. Finally, it displays the total count.
